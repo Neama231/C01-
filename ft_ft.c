@@ -16,24 +16,3 @@ int main (void)
 	printf("the value after ===> %d\n", n);
 }
 
-/*
-int main()
-{
-	int n;
-	char c;
-	n = 8;
-	if (n > 0 && n < 10)
-	{
-		c = n + '0';
-
-	write (1, &c, 1);
-	}
-	else {
-		c = (n / 10) + '0';
- 		write (1, &c, 1);
-		c = (n % 10) + '0';
- 		write (1, &c, 1);
-	}
-}
-*/
-
